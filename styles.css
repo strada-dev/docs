@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.more-info {
+    padding: 50px;
+    background: #f9f9f9;
+}
+
+.more-info h2 {
+    margin-bottom: 20px;
+}
+
+header {
+    background: #007BFF;
+    color: #fff;
+    padding: 50px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff;
+    color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.features {
+    padding: 50px;
+    background: #f9f9f9;
+}
+
+.features h2 {
+    margin-bottom: 20px;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.demo {
+    padding: 50px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.testimonial {
+    padding: 50px;
+    background: #f9f9f9;
+}
+
+.testimonial blockquote {
+    font-size: 1.2em;
+    margin: 0 0 20px;
+}
+
+.testimonial cite {
+    font-style: italic;
+}
+
+footer {
+    background: #007BFF;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
